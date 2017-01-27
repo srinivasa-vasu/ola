@@ -52,7 +52,6 @@
 		<swagger.version>1.5.8</swagger.version>
 		<springfox.version>2.4.0</springfox.version>
 
-
 		<!-- fabric8 version -->
 		<fabric8.version>2.2.105</fabric8.version>
 		<docker.maven.plugin.version>0.15.8</docker.maven.plugin.version>
