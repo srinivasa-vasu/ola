@@ -83,6 +83,16 @@
 		<fabric8.readinessProbe.timeoutSeconds>30</fabric8.readinessProbe.timeoutSeconds>
 		<version.surefire.plugin>2.16</version.surefire.plugin>
 	</properties>
+	<distributionManagement>
+	      <repository>
+		 <id>nexus</id>
+		 <url>http://nexus:8081/content/repositories/releases</url>
+	      </repository>
+	      <snapshotRepository>
+		 <id>nexus</id>
+		 <url>http://nexus:8081/content/repositories/snapshots</url>
+	      </snapshotRepository>
+        </distributionManagement>
 
 	<dependencies>
 		<dependency>
